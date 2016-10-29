@@ -106,3 +106,4 @@ ARM = "countries/Armenia.txt"
 
 #Wh40k
 TAU = "countries/Tau.txt"
+KRO = "countries/Kroot.txt"
