@@ -1,0 +1,136 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	astartes_inf_armour = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = astartes_inf_armour1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	astartes_inf_armour1 = {
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = astartes_inf_armour2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	astartes_inf_armour2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
+		
+		motorized = {
+			soft_attack = 0.05
+		}
+		
+		mechanized = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = astartes_inf_armour3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = @1938 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	astartes_inf_armour3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
+		
+		motorized = {
+			soft_attack = 0.05
+		}
+		
+		mechanized = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = @1942}
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
