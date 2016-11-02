@@ -1,0 +1,8 @@
+music = {
+	name = "launcher_music"
+	file = "/music/dow3.ogg"
+	#file = "Marines-Theme"
+	#file = "inquisitor.ogg"
+	#file = "signals of the lost.ogg"
+	volume = 0.90
+}

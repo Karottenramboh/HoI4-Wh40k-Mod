@@ -4,8 +4,18 @@
 music = {
 	name = "maintheme"
 	#file = "dow3.ogg"
-	file = "Marines-Theme"
+	#file = "Marines-Theme"
 	#file = "inquisitor.ogg"
+	file = "signals of the lost.ogg"
+	volume = 0.90
+}
+
+music = {
+	name = "launcher_music"
+	file = "dow3.ogg"
+	#file = "Marines-Theme"
+	#file = "inquisitor.ogg"
+	#file = "signals of the lost.ogg"
 	volume = 0.90
 }
 
@@ -19,6 +29,31 @@ music = {
 music = {
   name = "dowtrailer"
   file = "dow3.ogg"
+  volume = 0.65
+}
+
+music = {
+  name = "bloodravens"
+  file = "The-Blood-Ravens.ogg"
+  volume = 0.65
+}
+
+music = {
+  name = "titustheme"
+  file = "Titus-Theme.ogg"
+  volume = 0.65
+}
+
+music = {
+  name = "heresy"
+  file = "Heresy.ogg"
+  volume = 0.65
+}
+
+
+music = {
+  name = "church"
+  file = "pange-linqua-st-cecilia.ogg"
   volume = 0.65
 }
 

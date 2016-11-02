@@ -22,7 +22,31 @@ music = {
 }
 
 music = {
-	song = "dow3"
+	song = "titustheme"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "heresy"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "dowtrailer"
 	
 	chance = {
 		modifier = {
@@ -45,59 +69,19 @@ music = {
 	}
 }
 
-music = {
-	song = "ultratheme"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "ultratheme"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = democratic
-		}		
-	}	
-}
-
-music = {
-	song = "ultratheme"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = fascist
-		}		
-	}	
-}
-
-music = {
-	song = "ultratheme"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-			has_government = fascist
-		}		
-	}	
-}
-
 # WAR SONGS ####################
+
+music = {
+	song = "bloodravens"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}
+}
 
 music = {
 	song = "general_war_1"
