@@ -71,6 +71,7 @@ technology_categories = {
 	support_tech
 	para_tech
 	astartes_inf_weapons
+	astartes_inf_transport
 }
 
 technology_folders = {

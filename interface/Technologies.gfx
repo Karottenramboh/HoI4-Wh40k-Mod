@@ -3743,5 +3743,42 @@ spriteTypes = {
 		name = "GFX_astartes_inf_armour1_medium"
 		texturefile = "gfx/interface/technologies/astartes_inf_armour1.dds"
 	}
-	
+	SpriteType = {
+		name = "GFX_astartes_inf_armour2_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_armour2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_armour3_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_armour3.dds"
+	}
+	#Astartes Ammunition
+	SpriteType = {
+		name = "GFX_astartes_inf_ammunition_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_ammunition1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_ammunition2_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_ammunition2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_ammunition3_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_ammunition3.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_ammunition4_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_ammunition4.dds"
+	}
+	#METAL BAWKSES
+	SpriteType = {
+		name = "GFX_astartes_inf_transport_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_transport1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_transport2_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_transport2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_transport3_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_transport3.dds"
+	}
 }
