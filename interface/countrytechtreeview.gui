@@ -3527,50 +3527,14 @@ guiTypes = {
 	
 	#Infantry folder small item 
 	containerWindowType = {
-		name = "techtree_infantry_folder_small_item"
-		position = { x=0 y=0 }
-		size = { width = 72 height = 72 }
-		clipping = no
-
-		background = {
-			name = "bg"
-			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-		}
-
-		iconType = {
-			name = "Icon"
-			position = { x=3 y=3 }
-			spriteType = "GFX_technology_medium"
-			alwaystransparent = yes
-		}	
-		
-		iconType = {
-			name = "bonus_icon"
-			position = { x=3 y=-22 }
-			spriteType = "GFX_tech_bonus"
-		}
-		instantTextBoxType = {
-			name = "bonus"
-			position = { x = 17 y = -22 }
-			textureFile = ""
-			font = "hoi_16mbs"
-			borderSize = {x = 4 y = 4}
-			text = "lol boat"
-			maxWidth = 50
-			maxHeight = 20
-			format = right
-		}
-	}
-	#Infantry folder item 
-	containerWindowType = {
-		name = "techtree_infantry_folder_item"
+		name = "techtree_astartes_inf_folder_item"
 		position = { x=-56 y=-7 }
-		size = { width = 183 height = 84 }
+		size = { width = 110 height = 160 }
 		clipping = no
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg_high"
 		}
 
 		iconType = {
@@ -3616,12 +3580,12 @@ guiTypes = {
 		containerWindowType = {
 			name = "sub_technology_slot_0"
 			position = { x=141 y=1 }
-			size = { width = 35 height = 26 }
+			size = { width = 26 height = 35 }
 			clipping = no
 			
 			background = {
 				name = "Background"
-				spriteType ="GFX_subtechnology_unavailable_item_bg"
+				spriteType ="GFX_technology_unavailable_item_bg_high"
 			}
 			
 			iconType = {
@@ -3632,6 +3596,42 @@ guiTypes = {
 			}
 		}		
 		
+	}
+	#Infantry folder small item 
+	containerWindowType = {
+		name = "techtree_infantry_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}	
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
 	}
 	#Support folder item 
 	containerWindowType = {
