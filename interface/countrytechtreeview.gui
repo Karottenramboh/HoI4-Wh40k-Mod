@@ -2897,7 +2897,23 @@ guiTypes = {
 			buttonType = {
 				name = "astartes_inf_folder_tab"
 				position = { x = 22 y = 0 }
-				quadTextureSprite = "GFX_astartes_folder_tab"
+				quadTextureSprite = "GFX_astartes_inf_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			
+			buttonType = {
+				name = "astartes_heavy_folder_tab"
+				position = { x = 92 y = 0 }
+				quadTextureSprite = "GFX_astartes_heavy_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			
+			buttonType = {
+				name = "astartes_tank_folder_tab"
+				position = { x = 162 y = 0 }
+				quadTextureSprite = "GFX_astartes_tank_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
@@ -2919,7 +2935,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 1300 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = click_default

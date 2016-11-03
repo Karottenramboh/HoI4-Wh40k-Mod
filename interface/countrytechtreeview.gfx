@@ -1236,11 +1236,22 @@ spriteTypes = {
 		name = "GFX_technology_astartes_inf_unavailable_item_bg"
 		textureFile = "gfx//interface//technology_astartes_inf_unavailable_item_bg.dds"
 	}
-	
+	# Astartes Inf #
+	spriteType = {
+		name = "GFX_astartes_heavy_folder_tab"
+		textureFile = "gfx//interface//techtree_astartes_heavy_tab.dds"
+		noOfFrames = 2		
+	}
+	# Astartes Inf #
+	spriteType = {
+		name = "GFX_astartes_tank_folder_tab"
+		textureFile = "gfx//interface//techtree_astartes_tank_tab.dds"
+		noOfFrames = 2		
+	}
 	# Astartes Inf #
 	spriteType = {
 		name = "GFX_astartes_inf_folder_tab"
-		textureFile = "gfx//interface//techtree_astartes_tab.dds"
+		textureFile = "gfx//interface//techtree_astartes_inf_tab.dds"
 		noOfFrames = 2		
 	}
 	spriteType = {
