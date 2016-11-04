@@ -15,11 +15,11 @@ technologies = {
 	astartes_inf_armour = {
 
 		enable_equipments = {
-			astartes_inf_equipment_0
+			astartes_inf_armour
 		}
 		
 		enable_subunits = {
-			infantry
+			ast_tactical_squad
 		}
 		
 		path = {
@@ -44,7 +44,7 @@ technologies = {
 	astartes_inf_armour1 = {
 
 		enable_equipments = {
-			astartes_inf_equipment_1
+			astartes_inf_armour_1
 		}
 				
 		path = {
@@ -71,7 +71,7 @@ technologies = {
 	astartes_inf_armour2 = {
 
 		enable_equipments = {
-			astartes_inf_equipment_3
+			astartes_inf_armour_3
 		}
 		
 		path = {
@@ -97,7 +97,7 @@ technologies = {
 	astartes_inf_armour3 = {
 
 		enable_equipments = {
-			astartes_inf_equipment_3
+			astartes_inf_armour_3
 		}
 		
 		research_cost = 1.5
