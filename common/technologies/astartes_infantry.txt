@@ -115,6 +115,108 @@ technologies = {
 			factor = 1
 		}
 	}
+	astartes_inf_weapons = {
+
+		enable_equipments = {
+			astartes_inf_weapons1
+		}
+		
+		enable_subunits = {
+			ast_tactical_squad
+		}
+		
+		path = {
+			leads_to_tech = astartes_inf_weapons2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_weapons2 = {
+
+		enable_equipments = {
+			astartes_inf_weapons2
+		}
+				
+		path = {
+			leads_to_tech = astartes_inf_weapons3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	astartes_inf_weapons3 = {
+
+		enable_equipments = {
+			astartes_inf_weapons3
+		}
+				
+		path = {
+			leads_to_tech = astartes_inf_weapons4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_weapons4 = {
+
+		enable_equipments = {
+			astartes_inf_weapons4
+		}
+				
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	astartes_inf_ammunition = {
 
 		infantry = {

@@ -3751,6 +3751,23 @@ spriteTypes = {
 		name = "GFX_astartes_inf_armour3_medium"
 		texturefile = "gfx/interface/technologies/astartes_inf_armour3.dds"
 	}
+	#Astartes Weapon
+	SpriteType = {
+		name = "GFX_astartes_inf_weapons_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_weapon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_weapons2_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_weapon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_weapons3_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_weapon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_weapons4_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_weapon4.dds"
+	}
 	#Astartes Ammunition
 	SpriteType = {
 		name = "GFX_astartes_inf_ammunition_medium"

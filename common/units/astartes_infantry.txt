@@ -41,6 +41,7 @@ sub_units = {
 	
 		need = {
 			astartes_inf_armour = 10
+			astartes_inf_weapons = 12
 		}
 	}
 	

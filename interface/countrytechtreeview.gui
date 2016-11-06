@@ -228,8 +228,15 @@ guiTypes = {
 		
 				}	
 				gridboxtype = {
-					name = "astartes_inf_ammunition_tree"
+					name = "astartes_inf_weapons_tree"
 					position = { x = 180 y = 700 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}
+				gridboxtype = {
+					name = "astartes_inf_ammunition_tree"
+					position = { x = 180 y = 900 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
