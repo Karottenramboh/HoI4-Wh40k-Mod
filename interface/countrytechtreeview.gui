@@ -240,7 +240,30 @@ guiTypes = {
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
-				}		
+				}	
+
+				gridboxtype = {
+					name = "astartes_inf_devastor_hb_tree"
+					position = { x = 180 y = 1200 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}	
+				gridboxtype = {
+					name = "astartes_inf_devastor_pc_tree"
+					position = { x = 180 y = 1300 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}	
+	
+				gridboxtype = {
+					name = "astartes_inf_devastor_lc_tree"
+					position = { x = 180 y = 1400 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}				
 		}
 		#Armour folder
 		containerWindowType = {

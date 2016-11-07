@@ -3768,6 +3768,57 @@ spriteTypes = {
 		name = "GFX_astartes_inf_weapons4_medium"
 		texturefile = "gfx/interface/technologies/astartes_inf_weapon4.dds"
 	}
+	#Astartes Devastor HB
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_hb_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_hb.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_hb1_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_hb1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_hb2_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_hb2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_hb3_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_hb3.dds"
+	}
+	#Astartes Devastor PC
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_pc_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_pc.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_pc1_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_pc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_pc2_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_pc2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_pc3_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_pc3.dds"
+	}
+	#Astartes Devastor PC
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_lc_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_lc.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_lc1_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_lc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_lc2_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_lc2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_devastor_lc3_medium"
+		texturefile = "gfx/interface/technologies/astartes_devastor_lc3.dds"
+	}
 	#Astartes Ammunition
 	SpriteType = {
 		name = "GFX_astartes_inf_ammunition_medium"
