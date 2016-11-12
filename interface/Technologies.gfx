@@ -3819,6 +3819,62 @@ spriteTypes = {
 		name = "GFX_astartes_inf_devastor_lc3_medium"
 		texturefile = "gfx/interface/technologies/astartes_devastor_lc3.dds"
 	}
+	#Astartes Scouts
+	SpriteType = {
+		name = "GFX_astartes_inf_scout_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_scout.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_scout1_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_scout1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_scout2_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_scout2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_scout3_medium"
+		texturefile = "gfx/interface/technologies/astartes_inf_scout3.dds"
+	}
+	#Apothecarius
+	SpriteType = {
+		name = "GFX_astartes_inf_apothecarius_medium"
+		texturefile = "gfx/interface/technologies/astartes_apothecarius1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_apothecarius2_medium"
+		texturefile = "gfx/interface/technologies/astartes_apothecarius2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_apothecarius3_medium"
+		texturefile = "gfx/interface/technologies/astartes_apothecarius3.dds"
+	}
+	#Techmarine
+	SpriteType = {
+		name = "GFX_astartes_inf_techmarine_medium"
+		texturefile = "gfx/interface/technologies/astartes_techmarine1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_techmarine2_medium"
+		texturefile = "gfx/interface/technologies/astartes_techmarine2.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_techmarine3_medium"
+		texturefile = "gfx/interface/technologies/astartes_techmarine3.dds"
+	}
+	#Librarius
+	SpriteType = {
+		name = "GFX_astartes_inf_librarius_medium"
+		texturefile = "gfx/interface/technologies/astartes_librarian1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_librarius2_medium"
+		texturefile = "gfx/interface/technologies/astartes_librarian1.dds"
+	}
+	SpriteType = {
+		name = "GFX_astartes_inf_librarius3_medium"
+		texturefile = "gfx/interface/technologies/astartes_librarian1.dds"
+	}
 	#Astartes Ammunition
 	SpriteType = {
 		name = "GFX_astartes_inf_ammunition_medium"

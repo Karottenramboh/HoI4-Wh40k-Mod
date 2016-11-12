@@ -214,33 +214,41 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "astartes_inf_armour_tree"
-					position = { x = 140 y = 325 }
-					slotsize = { width = 70 height = 70 }
-					format = "LEFT"
-		
-				}	
-
-				gridboxtype = {
-					name = "astartes_inf_transport_tree"
-					position = { x = 180 y = 500 }
+					position = { x = 140 y = 200 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
 				}	
 				gridboxtype = {
 					name = "astartes_inf_weapons_tree"
-					position = { x = 180 y = 700 }
+					position = { x = 180 y = 450 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
 				}
 				gridboxtype = {
-					name = "astartes_inf_ammunition_tree"
+					name = "astartes_inf_transport_tree"
 					position = { x = 180 y = 900 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
 				}	
+				
+				#gridboxtype = {
+				#	name = "astartes_inf_scout_tree"
+				#	position = { x = 180 y = 800 }
+				#	slotsize = { width = 70 height = 70 }
+				#	format = "LEFT"
+		
+				#}	
+				
+				#gridboxtype = {
+				#	name = "astartes_inf_ammunition_tree"
+				#	position = { x = 180 y = 900 }
+				#	slotsize = { width = 70 height = 70 }
+				#	format = "LEFT"
+		#
+				#}	
 
 				gridboxtype = {
 					name = "astartes_inf_devastor_hb_tree"
@@ -251,7 +259,7 @@ guiTypes = {
 				}	
 				gridboxtype = {
 					name = "astartes_inf_devastor_pc_tree"
-					position = { x = 180 y = 1300 }
+					position = { x = 180 y = 1350 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		
@@ -259,7 +267,29 @@ guiTypes = {
 	
 				gridboxtype = {
 					name = "astartes_inf_devastor_lc_tree"
-					position = { x = 180 y = 1400 }
+					position = { x = 180 y = 1500 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}		
+				gridboxtype = {
+					name = "astartes_inf_apothecarius_tree"
+					position = { x = 180 y = 1650 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}	
+				gridboxtype = {
+					name = "astartes_inf_techmarine_tree"
+					position = { x = 180 y = 1800 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+		
+				}	
+	
+				gridboxtype = {
+					name = "astartes_inf_librarius_tree"
+					position = { x = 180 y = 1950 }
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 		

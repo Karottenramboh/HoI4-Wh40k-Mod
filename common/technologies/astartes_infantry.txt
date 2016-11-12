@@ -56,7 +56,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = 4 }
 		}
 		categories = {
 			astartes_inf_weapons
@@ -83,7 +83,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = 10 }
 		}
 		categories = {
 			astartes_inf_weapons
@@ -104,7 +104,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = @1944}
+			position = { x = 0 y = 16}
 		}
 		categories = {
 			astartes_inf_weapons
@@ -128,8 +128,15 @@ technologies = {
 		path = {
 			leads_to_tech = astartes_inf_weapons2
 			research_cost_coeff = 1
-		}		
-
+		}	
+		path = {
+			leads_to_tech = astartes_inf_scout
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = astartes_inf_ammunition
+			research_cost_coeff = 1
+		}			
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
@@ -217,10 +224,192 @@ technologies = {
 			factor = 1
 		}
 	}
+	astartes_inf_scout = {
+
+		enable_equipments = {
+			astartes_inf_scout_equipment
+		}
+		
+		enable_subunits = {
+			ast_scout
+		}
+		
+		path = {
+			leads_to_tech = astartes_inf_scout1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 2 y = 4}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_scout1 = {
+		
+		path = {
+			leads_to_tech = astartes_inf_scout2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 2 y = 8}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_scout2 = {
+		
+		path = {
+			leads_to_tech = astartes_inf_scout3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 2 y = 12}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_scout3 = {
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 2 y = 16}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_ammunition = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		path = {
+			leads_to_tech = astartes_inf_ammunition2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_ammunition2 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		path = {
+			leads_to_tech = astartes_inf_ammunition3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_ammunition3 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		path = {
+			leads_to_tech = astartes_inf_ammunition4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_ammunition4 = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	astartes_inf_devastor_hb = {
 
 		enable_equipments = {
-			astartes_inf_heavy_bolter
+			astartes_inf_heavy_bolter1
 		}
 		
 		enable_subunits = {
@@ -247,10 +436,6 @@ technologies = {
 	}
 	astartes_inf_devastor_hb1 = {
 		
-		enable_subunits = {
-			ast_devastor_hb
-		}
-		
 		path = {
 			leads_to_tech = astartes_inf_devastor_hb2
 			research_cost_coeff = 1
@@ -271,9 +456,6 @@ technologies = {
 	}
 	astartes_inf_devastor_hb2 = {
 		
-		enable_subunits = {
-			ast_devastor_hb
-		}
 		
 		path = {
 			leads_to_tech = astartes_inf_devastor_hb3
@@ -294,10 +476,6 @@ technologies = {
 		}
 	}
 	astartes_inf_devastor_hb3 = {
-		
-		enable_subunits = {
-			ast_devastor_hb
-		}
 		
 		path = {
 			leads_to_tech = astartes_inf_devastor_hb3
@@ -320,7 +498,7 @@ technologies = {
 	astartes_inf_devastor_pc = {
 
 		enable_equipments = {
-			astartes_inf_plasma_cannon
+			astartes_inf_plasma_cannon1
 		}
 		
 		enable_subunits = {
@@ -403,7 +581,7 @@ technologies = {
 	astartes_inf_devastor_lc = {
 
 		enable_equipments = {
-			astartes_inf_laser_cannon
+			astartes_inf_laser_cannon1
 		}
 		
 		enable_subunits = {
@@ -430,7 +608,10 @@ technologies = {
 	}
 	astartes_inf_devastor_lc1 = {
 		
-		
+		path = {
+			leads_to_tech = astartes_inf_devastor_lc2
+			research_cost_coeff = 1
+		}
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
@@ -445,10 +626,6 @@ technologies = {
 		}
 	}
 	astartes_inf_devastor_lc2 = {
-		
-		enable_subunits = {
-			ast_devastor_lc
-		}
 		
 		path = {
 			leads_to_tech = astartes_inf_devastor_lc3
@@ -470,11 +647,6 @@ technologies = {
 	}
 	astartes_inf_devastor_lc3 = {
 		
-		enable_subunits = {
-			ast_devastor_lc
-		}
-			
-
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
@@ -488,102 +660,164 @@ technologies = {
 			factor = 1
 		}
 	}
-	astartes_inf_ammunition = {
-
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+	astartes_inf_apothecarius = {
+		
 		path = {
-			leads_to_tech = astartes_inf_ammunition2
+			leads_to_tech = astartes_inf_apothecarius2
 			research_cost_coeff = 1
 		}
-
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = 3 }
+			position = { x = 0 y = 4}
 		}
-		
 		categories = {
-			infantry_tech
+			astartes_inf_weapons
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	astartes_inf_ammunition2 = {
-
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+	astartes_inf_apothecarius2 = {
+		
 		path = {
-			leads_to_tech = astartes_inf_ammunition3
+			leads_to_tech = astartes_inf_apothecarius3
 			research_cost_coeff = 1
-		}
+		}		
 
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 6}
 		}
-		
 		categories = {
-			infantry_tech
+			astartes_inf_weapons
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	astartes_inf_ammunition3 = {
-
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		path = {
-			leads_to_tech = astartes_inf_ammunition4
-			research_cost_coeff = 1
-		}
-
+	astartes_inf_apothecarius3 = {
+		
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 8}
 		}
-		
 		categories = {
-			infantry_tech
+			astartes_inf_weapons
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	astartes_inf_ammunition4 = {
-
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
+	astartes_inf_techmarine = {
+		
+		path = {
+			leads_to_tech = astartes_inf_techmarine2
+			research_cost_coeff = 1
 		}
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 4}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_techmarine2 = {
+		
+		path = {
+			leads_to_tech = astartes_inf_techmarine3
+			research_cost_coeff = 1
+		}		
 
 		research_cost = 1.5
 		start_year = 1918
 		folder = {
 			name = astartes_inf_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 6}
 		}
-		
 		categories = {
-			infantry_tech
+			astartes_inf_weapons
 		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_techmarine3 = {
 		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 8}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_librarius = {
+		
+		path = {
+			leads_to_tech = astartes_inf_librarius2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 4}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_librarius2 = {
+		
+		path = {
+			leads_to_tech = astartes_inf_librarius3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 6}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	astartes_inf_librarius3 = {
+		
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = astartes_inf_folder
+			position = { x = 0 y = 8}
+		}
+		categories = {
+			astartes_inf_weapons
+		}
 		ai_will_do = {
 			factor = 1
 		}

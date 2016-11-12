@@ -5,8 +5,8 @@
 sub_units = {
 
 	ast_tactical_squad = {
-		sprite = ast_tactical_squad
-		map_icon_category = ast_tactical_squad
+		sprite = infantry
+		map_icon_category = infantry
 		
 		priority = 600
 		active = no
@@ -44,9 +44,48 @@ sub_units = {
 			astartes_inf_weapons = 12
 		}
 	}
+	ast_scout = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 0.2
+		
+		#Size Definitions
+		max_strength = 10
+		max_organisation = 40
+		default_morale = 2
+		manpower = 10
+
+		#Misc Abilities
+		training_time = 120
+		suppression = 1
+		weight = 0.1
+		
+		supply_consumption = 0.05
+	
+		need = {
+			astartes_inf_scout_equipment = 10
+		}
+	}
 	ast_devastor_hb = {
-		sprite = ast_tactical_squad
-		map_icon_category = ast_tactical_squad
+		sprite = infantry
+		map_icon_category = infantry
 		
 		priority = 600
 		active = no
@@ -85,8 +124,8 @@ sub_units = {
 		}
 	}
 	ast_devastor_pc = {
-		sprite = ast_tactical_squad
-		map_icon_category = ast_tactical_squad
+		sprite = infantry
+		map_icon_category = infantry
 		
 		priority = 600
 		active = no
@@ -122,6 +161,46 @@ sub_units = {
 		need = {
 			astartes_inf_armour = 5
 			astartes_inf_plasma_cannon = 5
+		}
+	}
+	ast_devastor_lc = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_heavy_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 0.4
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 100
+		default_morale = 2
+		manpower = 5
+
+		#Misc Abilities
+		training_time = 360
+		suppression = 1
+		weight = 0.1
+		
+		supply_consumption = 0.05
+	
+		need = {
+			astartes_inf_armour = 5
+			astartes_inf_laser_cannon = 5
 		}
 	}
 	
