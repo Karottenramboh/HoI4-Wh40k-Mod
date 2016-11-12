@@ -227,7 +227,7 @@ technologies = {
 	astartes_inf_scout = {
 
 		enable_equipments = {
-			astartes_inf_scout_equipment
+			astartes_inf_scout_equipment1
 		}
 		
 		enable_subunits = {

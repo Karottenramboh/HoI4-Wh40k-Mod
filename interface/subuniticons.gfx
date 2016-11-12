@@ -59,6 +59,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_ast_devastor_hb_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_ast_devastor_hb_icon.dds" noOfFrames = 2 }	
 	spriteType = { name = "GFX_unit_ast_devastor_pc_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_ast_devastor_pc_icon.dds" noOfFrames = 2 }	
 	spriteType = { name = "GFX_unit_ast_devastor_lc_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_ast_devastor_lc_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_ast_scout_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_ast_scout_icon.dds" noOfFrames = 2 }	
 	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
