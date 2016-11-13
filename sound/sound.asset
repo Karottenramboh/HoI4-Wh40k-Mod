@@ -2080,40 +2080,40 @@ sound =
 {
 	name = "distance_airplane_idle_01"
 	file = "animations/distance_airplane_idle_01.wav"
-	volume = 0.5
+	volume = 1
 }
 sound =
 {
 	name = "distance_airplane_idle_02"
 	file = "animations/distance_airplane_idle_02.wav"
-	volume = 0.5
+	volume = 1
 }
 sound =
 {
 	name = "distance_airplane_idle_03"
 	file = "animations/distance_airplane_idle_03.wav"
-	volume = 0.5
+	volume = 1
 }
 sound =
 {
 	name = "distance_airplane_idle_04"
 	file = "animations/distance_airplane_idle_04.wav"
 	always_load = no
-	volume = 0.8
+	volume = 1.3
 }
 sound =
 {
 	name = "distance_airplane_medium_idle_01"
 	file = "animations/distance_airplane_medium_idle_01.wav"
 	always_load = no
-	volume = 0.5
+	volume = 1
 }
 sound =
 {
 	name = "distance_airplane_heavy_idle_01"
 	file = "animations/distance_airplane_heavy_idle_01.wav"
 	always_load = no
-	volume = 0.5
+	volume = 1
 }
 sound =
 {
