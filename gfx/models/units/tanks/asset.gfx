@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "asset_mesh"
+		file = "output/asset.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "mesh_0Shape"
+			index = 0
+			texture_diffuse = "AST_test_diffuse.dds"
+			texture_normal = "AST_test_normal.dds"
+			texture_specular = "AST_test_specular.dds"
+			shader = "PdxMeshHoI4"
+		}
+	}
+}

@@ -44,6 +44,7 @@ set_technology = {
 	formation_flying = 1
 	synth_oil_experiments = 1
 	transport = 1
+	astartes = 1
 }
 
 

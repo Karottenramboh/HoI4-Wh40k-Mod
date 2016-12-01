@@ -1,0 +1,15 @@
+technologies = {
+
+	astartes= {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		research_cost = 9999
+		
+		categories = {
+			faction
+		}
+		
+	}
+}

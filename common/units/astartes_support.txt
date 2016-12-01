@@ -1,0 +1,215 @@
+sub_units = {
+	ast_apothecarius = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 1
+		training_time = 360
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		casualty_trickleback = 0.20
+		experience_loss_factor = -0.10
+		
+		need = {
+			astartes_inf_armour = 1
+			astartes_inf_weapons = 1
+		}
+
+	}
+	ast_techmarine = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 1
+		training_time = 360
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		reliability_factor = 0.25
+
+		need = {
+			astartes_inf_armour = 1
+			astartes_inf_weapons = 1
+		}
+
+	}
+	ast_librarian = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			astartes_inf_armour = 1
+			astartes_inf_weapons = 1
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 1
+		training_time = 360
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		initiative = 0.10
+		experience_loss_factor = -0.05
+		defence = 0.1
+		movement = 0.05
+		
+
+		need = {
+			astartes_inf_armour = 1
+			astartes_inf_weapons = 1
+		}
+
+	}
+	ast_devastor_hb_sup = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_heavy_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 100
+		default_morale = 2
+		manpower = 5
+
+		#Misc Abilities
+		training_time = 360
+		suppression = 1
+		weight = 0.1
+		
+		supply_consumption = 0.05
+	
+		need = {
+			astartes_inf_armour = 5
+			astartes_inf_heavy_bolter = 5
+		}
+	}
+	ast_devastor_pc_sup = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_heavy_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 0
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 100
+		default_morale = 2
+		manpower = 5
+
+		#Misc Abilities
+		training_time = 360
+		suppression = 1
+		weight = 0.1
+		
+		supply_consumption = 0.05
+	
+		need = {
+			astartes_inf_armour = 5
+			astartes_inf_plasma_cannon = 5
+		}
+	}
+}

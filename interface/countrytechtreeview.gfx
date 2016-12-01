@@ -1236,18 +1236,13 @@ spriteTypes = {
 		name = "GFX_technology_astartes_inf_unavailable_item_bg"
 		textureFile = "gfx//interface//technology_astartes_inf_unavailable_item_bg.dds"
 	}
-	# Astartes Inf #
-	spriteType = {
-		name = "GFX_astartes_heavy_folder_tab"
-		textureFile = "gfx//interface//techtree_astartes_heavy_tab.dds"
-		noOfFrames = 2		
-	}
-	# Astartes Inf #
+	# Astartes Tank#
 	spriteType = {
 		name = "GFX_astartes_tank_folder_tab"
 		textureFile = "gfx//interface//techtree_astartes_tank_tab.dds"
 		noOfFrames = 2		
 	}
+	
 	# Astartes Inf #
 	spriteType = {
 		name = "GFX_astartes_inf_folder_tab"
@@ -1285,6 +1280,360 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_astartes_inf_folder_small_currently_researching_item_bg"
 		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_astartes_inf_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# IG Inf #
+	spriteType = {
+		name = "GFX_ig_inf_folder_tab"
+		textureFile = "gfx//interface//techtree_ig_inf_tab.dds"
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_technology_ig_inf_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_ig_inf_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_ig_inf_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_ig_inf_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_inf_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_inf_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_inf_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_ig_inf_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_ig_inf_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# IG Tank
+	spriteType = {
+		name = "GFX_ig_tank_folder_tab"
+		textureFile = "gfx//interface//techtree_ig_tank_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_technology_ig_tank_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_ig_tank_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_ig_tank_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_ig_tank_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_tank_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_tank_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_ig_tank_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_ig_tank_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_ig_tank_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# Mechanicum Infantry
+	spriteType = {
+		name = "GFX_mechanicum_inf_folder_tab"
+		textureFile = "gfx//interface//techtree_mechanicum_inf_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_inf_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_inf_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_inf_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_mechanicum_inf_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_inf_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_inf_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_inf_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mechanicum_inf_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mechanicum_inf_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# Mechanicum Tank
+	spriteType = {
+		name = "GFX_mechanicum_tank_folder_tab"
+		textureFile = "gfx//interface//techtree_mechanicum_tank_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_tank_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_tank_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_mechanicum_tank_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_mechanicum_tank_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_tank_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_tank_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_mechanicum_tank_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mechanicum_tank_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_mechanicum_tank_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# Eldar Inf
+	spriteType = {
+		name = "GFX_eldar_inf_folder_tab"
+		textureFile = "gfx//interface//techtree_eldar_inf_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_inf_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_inf_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_inf_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_eldar_inf_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_inf_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_inf_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_inf_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_eldar_inf_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_eldar_inf_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	# Eldar Tank
+	spriteType = {
+		name = "GFX_eldar_tank_folder_tab"
+		textureFile = "gfx//interface//techtree_eldar_tank_tab.dds"
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_tank_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_tank_folder_small_available_item_bg"
+		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_eldar_tank_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+	}
+	spriteType = { 
+ 		name = "GFX_technology_eldar_tank_folder_currently_researching_item_bg"
+ 		textureFile = "gfx/interface/technology_currently_researching_item.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_tank_folder_available_item_bg"
+ 		textureFile = "gfx/interface/technology_available_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_tank_folder_unavailable_item_bg"
+ 		textureFile = "gfx/interface/technology_unavailable_item_bg.dds"
+ 	}
+ 	spriteType = {
+ 		name = "GFX_technology_eldar_tank_folder_researched_item_bg"
+ 		textureFile = "gfx/interface/technology_researched_item_bg.dds"
+ 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_eldar_tank_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_eldar_tank_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes

@@ -14,6 +14,10 @@ technologies = {
 
 	astartes_inf_armour = {
 
+		dependencies = {
+			astartes = 1
+		}
+
 		enable_equipments = {
 			astartes_inf_armour
 		}
@@ -116,6 +120,10 @@ technologies = {
 		}
 	}
 	astartes_inf_weapons = {
+
+		dependencies = {
+			astartes = 1
+		}
 
 		enable_equipments = {
 			astartes_inf_weapons1
@@ -225,7 +233,7 @@ technologies = {
 		}
 	}
 	astartes_inf_scout = {
-
+	
 		enable_equipments = {
 			astartes_inf_scout_equipment1
 		}
@@ -407,7 +415,11 @@ technologies = {
 		}
 	}
 	astartes_inf_devastor_hb = {
-
+	
+		dependencies = {
+			astartes = 1
+		}
+		
 		enable_equipments = {
 			astartes_inf_heavy_bolter1
 		}
@@ -497,6 +509,10 @@ technologies = {
 	}
 	astartes_inf_devastor_pc = {
 
+		dependencies = {
+			astartes = 1
+		}
+		
 		enable_equipments = {
 			astartes_inf_plasma_cannon1
 		}
@@ -580,6 +596,10 @@ technologies = {
 	}
 	astartes_inf_devastor_lc = {
 
+		dependencies = {
+			astartes = 1
+		}
+		
 		enable_equipments = {
 			astartes_inf_laser_cannon1
 		}
@@ -662,6 +682,14 @@ technologies = {
 	}
 	astartes_inf_apothecarius = {
 		
+		dependencies = {
+			astartes = 1
+		}
+		
+		enable_subunits = {
+			ast_apothecarius
+		}
+		
 		path = {
 			leads_to_tech = astartes_inf_apothecarius2
 			research_cost_coeff = 1
@@ -715,6 +743,14 @@ technologies = {
 		}
 	}
 	astartes_inf_techmarine = {
+	
+		dependencies = {
+			astartes = 1
+		}
+		
+		enable_subunits = {
+			ast_techmarine
+		}
 		
 		path = {
 			leads_to_tech = astartes_inf_techmarine2
@@ -769,6 +805,14 @@ technologies = {
 		}
 	}
 	astartes_inf_librarius = {
+	
+		dependencies = {
+			astartes = 1
+		}
+		
+		enable_subunits = {
+			ast_librarian
+		}
 		
 		path = {
 			leads_to_tech = astartes_inf_librarius2
@@ -825,11 +869,14 @@ technologies = {
 	
 	astartes_inf_transport = {
 
+		dependencies = {
+			astartes = 1
+		}
+		
 		enable_equipments = {
 			astartes_inf_transport_equip_1
 		}
 
-		
 		path = {
 			leads_to_tech = astartes_inf_transport2
 			research_cost_coeff = 1

@@ -1,0 +1,8 @@
+astartes	-	grau
+ig		-	yellow			-	cda733
+mechanicum	-	red/brown		-	962000
+eldar		-	blue			-	009cff
+orks		-	green			-	008c00
+tau		-	yellow
+necron		-	darkgreen
+chaos		-	dark purple
