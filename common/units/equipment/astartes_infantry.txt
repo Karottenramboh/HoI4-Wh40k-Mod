@@ -191,7 +191,7 @@ equipments = {
 	
 	# Advanced weapons  ~1942
 	astartes_inf_weapons4 = {
-		archetype = astartes_inf_weapons4
+		archetype = astartes_inf_weapons
 		parent = astartes_inf_weapons3
 		priority = 10
 		visual_level = 3

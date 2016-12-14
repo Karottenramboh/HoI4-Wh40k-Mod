@@ -3,6 +3,6 @@ ig		-	yellow			-	cda733
 mechanicum	-	red/brown		-	962000
 eldar		-	blue			-	009cff
 orks		-	green			-	008c00
-tau		-	yellow
-necron		-	darkgreen
-chaos		-	dark purple
+tau		-	yellow			-	ffd000
+necron		-	darkgreen		-	00470c
+chaos		-	dark purple		-	a200ff/8a3cb7

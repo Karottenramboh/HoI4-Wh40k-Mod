@@ -3737,7 +3737,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/guerilla_warfare.dds"
 		alwaystransparent = yes
 	}
-	
+	########################## ASTARTES ###########################################
 	#ASTARTES INF
 	SpriteType = {
 		name = "GFX_astartes_inf_armour1_medium"
@@ -3904,5 +3904,49 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_astartes_inf_transport3_medium"
 		texturefile = "gfx/interface/technologies/astartes_inf_transport3.dds"
+	}
+	############################## IMPERIAL GUARD ################################
+	#IG Armour
+	SpriteType = {
+		name = "GFX_inf_armour1_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_armour1.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_armour2_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_armour2.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_armour3_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_armour3.dds"
+	}
+	#IG Weapons
+	SpriteType = {
+		name = "GFX_inf_weapons1_medium"
+		texturefile = "gfx/interface/technologies/inf_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_weapons2_medium"
+		texturefile = "gfx/interface/technologies/inf_weapons2.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_weapons3_medium"
+		texturefile = "gfx/interface/technologies/inf_weapons3.dds"
+	}
+	SpriteType = {
+		name = "GFX_inf_weapons4_medium"
+		texturefile = "gfx/interface/technologies/inf_weapons4.dds"
+	}
+	#IG Heavy Weapons
+	SpriteType = {
+		name = "GFX_ig_inf_hwt_equip1_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_hwt_equip1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_hwt_equip2_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_hwt_equip2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_hwt_equip3_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_hwt_equip3.dds"
 	}
 }

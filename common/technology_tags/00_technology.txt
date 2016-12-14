@@ -78,6 +78,8 @@ technology_categories = {
 technology_folders = {
 	astartes_folder
 	astartes_inf_folder
+	astartes_tank_folder
+	ig_inf_folder
 	infantry_folder
 	support_folder
 	armour_folder

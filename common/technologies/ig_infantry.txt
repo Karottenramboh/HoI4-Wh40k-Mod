@@ -1,0 +1,270 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	inf_armour1 = {
+
+		dependencies = {
+			ig = 1
+		}
+
+		enable_equipments = {
+			inf_armour_1
+		}
+		
+		path = {
+			leads_to_tech = inf_armour2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.0
+		start_year = 1918
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = -1 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	inf_armour2 = {
+
+		enable_equipments = {
+			inf_armour_2
+		}
+				
+		path = {
+			leads_to_tech = inf_armour3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 4 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	inf_armour3 = {
+	
+		enable_equipments = {
+			inf_armour_3
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	inf_weapons1 = {
+
+		dependencies = {
+			ig = 1
+		}
+
+		enable_equipments = {
+			inf_weapons_1
+		}
+		
+		path = {
+			leads_to_tech = inf_weapons2
+			research_cost_coeff = 1
+		}			
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	inf_weapons2 = {
+
+		enable_equipments = {
+			inf_weapons_2
+		}
+				
+		path = {
+			leads_to_tech = inf_weapons3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	inf_weapons3 = {
+
+		enable_equipments = {
+			inf_weapons_3
+		}
+				
+		path = {
+			leads_to_tech = inf_weapons4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	inf_weapons4 = {
+
+		enable_equipments = {
+			inf_weapons_4
+		}
+				
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_hwt_equip1 = {
+
+		dependencies = {
+			ig = 1
+		}
+
+		enable_equipments = {
+			ig_inf_hwt_equip_1
+		}
+		
+		path = {
+			leads_to_tech = ig_inf_hwt_equip2
+			research_cost_coeff = 1
+		}			
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_hwt_equip2 = {
+
+		enable_equipments = {
+			ig_inf_hwt_equip_2
+		}
+				
+		path = {
+			leads_to_tech = ig_inf_hwt_equip3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	ig_inf_hwt_equip3 = {
+
+		enable_equipments = {
+			ig_inf_hwt_equip_3
+		}
+				
+		path = {
+			leads_to_tech = ig_inf_hwt_equip4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	
