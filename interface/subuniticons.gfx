@@ -64,6 +64,12 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_ast_techmarine_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_ast_techmarine_icon.dds" noOfFrames = 2 }	
 	spriteType = { name = "GFX_unit_ast_librarian_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_ast_librarian_icon.dds" noOfFrames = 2 }	
 	
+	spriteType = { name = "GFX_unit_ig_hwt_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_ig_hwt_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_ig_commando_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_ig_commando_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_ig_commissar_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/support_unit_ig_commissar_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_ig_psyker_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/support_unit_ig_psyker_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_ig_sniper_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/support_unit_ig_sniper_icon.dds" noOfFrames = 2 }	
+	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 

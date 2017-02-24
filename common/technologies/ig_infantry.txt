@@ -97,6 +97,10 @@ technologies = {
 			inf_weapons_1
 		}
 		
+		enable_subunits = {
+			infantry
+		}
+		
 		path = {
 			leads_to_tech = inf_weapons2
 			research_cost_coeff = 1
@@ -197,6 +201,10 @@ technologies = {
 			ig_inf_hwt_equip_1
 		}
 		
+		enable_subunits = {
+			ig_hwt
+		}
+		
 		path = {
 			leads_to_tech = ig_inf_hwt_equip2
 			research_cost_coeff = 1
@@ -245,11 +253,187 @@ technologies = {
 		enable_equipments = {
 			ig_inf_hwt_equip_3
 		}
+			
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_artillery_equip1 = {
+
+		dependencies = {
+			ig = 1
+		}
+
+		enable_equipments = {
+			ig_inf_artillery_equip_1
+		}
+		enable_subunits = {
+			artillery_brigade
+		}
+		
+		path = {
+			leads_to_tech = ig_inf_artillery_equip2
+			research_cost_coeff = 1
+		}			
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_artillery_equip2 = {
+
+		enable_equipments = {
+			ig_inf_artillery_equip_2
+		}
 				
 		path = {
-			leads_to_tech = ig_inf_hwt_equip4
+			leads_to_tech = ig_inf_artillery_equip3
 			research_cost_coeff = 1
 		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	ig_inf_artillery_equip3 = {
+
+		enable_equipments = {
+			ig_inf_artillery_equip_3
+		}
+		path = {
+			leads_to_tech = ig_inf_artillery_equip4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_artillery_equip4 = {
+
+		enable_equipments = {
+			ig_inf_artillery_equip_4
+		}
+			
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_antitank_equip1 = {
+
+		dependencies = {
+			ig = 1
+		}
+
+		enable_equipments = {
+			ig_inf_antitank_equip_1
+		}
+		enable_subunits = {
+			anti_tank_brigade
+		}
+		
+		path = {
+			leads_to_tech = ig_inf_antitank_equip2
+			research_cost_coeff = 1
+		}			
+		research_cost = 1.5
+		start_year = 1918
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 2}
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ig_inf_antitank_equip2 = {
+
+		enable_equipments = {
+			ig_inf_antitank_equip_2
+		}
+				
+		path = {
+			leads_to_tech = ig_inf_antitank_equip3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = ig_inf_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			ig_inf_weapons
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	ig_inf_antitank_equip3 = {
+
+		enable_equipments = {
+			ig_inf_antitank_equip_3
+		}
+			
 
 		research_cost = 1.5
 		start_year = 1936

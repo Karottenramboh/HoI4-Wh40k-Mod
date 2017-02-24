@@ -44,7 +44,48 @@ sub_units = {
 			inf_armour = 100
 		}
 	}
+
+	ig_stormtrooper = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 1
+		
+		#Size Definitions
+		max_strength = 35
+		max_organisation = 80
+		default_morale = 0.5
+		manpower = 200
+
+		#Misc Abilities
+		training_time = 180
+		suppression = 2
+		weight = 0.1
+		
+		supply_consumption = 0.1
 	
+		need = {
+			inf_weapons = 20
+			inf_armour = 20
+		}
+	}
+
 	ig_hwt = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -56,9 +97,6 @@ sub_units = {
 			infantry
 		}
 		
-		enable_subunits = {
-			ast_scout
-		}
 		
 		group = infantry
 		
@@ -85,6 +123,152 @@ sub_units = {
 		need = {
 			inf_weapons = 20
 			inf_armour = 20
+		}
+	}
+	artillery_brigade = {
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		active = yes
+		support_brigade = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = infantry
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			artillery_equipment = 40
+			inf_armour = 40
+		}
+		
+		max_strength = 0.6
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.2
+
+		#Line artillery bonuses
+		soft_attack = 0.25
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	anti_tank_brigade = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 1197
+		active = yes
+		support_brigade = yes
+		
+		type = {
+			infantry
+			anti_tank
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+		}		
+		
+		combat_width = 1
+
+		need = {
+			ig_inf_antitank_equip = 40
+			inf_armour = 40
+		}
+		
+		manpower = 400
+		max_organisation = 0
+		default_morale = 0
+		max_strength = 0.6
+		training_time = 120
+		weight = 0.5
+
+		supply_consumption = 0.1
+
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
 		}
 	}
 }

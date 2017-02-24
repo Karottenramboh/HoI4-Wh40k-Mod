@@ -691,6 +691,18 @@ guiTypes = {
 					slotsize = { width = 70 height = 70 }
 					format = "LEFT"
 				}
+				gridboxtype = {
+					name = "ig_inf_artillery_equip1_tree"
+					position = { x = 180 y = 850 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+				}
+				gridboxtype = {
+					name = "ig_inf_antitank_equip1_tree"
+					position = { x = 180 y = 1050 }
+					slotsize = { width = 70 height = 70 }
+					format = "LEFT"
+				}
 				#gridboxtype = {
 				#	name = "astartes_inf_transport_tree"
 				#	position = { x = 180 y = 900 }
@@ -3424,43 +3436,57 @@ guiTypes = {
 				clicksound = click_default
 			}
 			buttonType = {
-				name = "tau_inf_folder_tab"
+				name = "ork_inf_folder_tab"
 				position = { x = 622 y = 0 }
+				quadTextureSprite = "GFX_ork_inf_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			buttonType = {
+				name = "ork_tank_folder_tab"
+				position = { x = 692 y = 0 }
+				quadTextureSprite = "GFX_ork_tank_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			buttonType = {
+				name = "tau_inf_folder_tab"
+				position = { x = 772 y = 0 }
 				quadTextureSprite = "GFX_tau_inf_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "tau_tank_folder_tab"
-				position = { x = 692 y = 0 }
+				position = { x = 842 y = 0 }
 				quadTextureSprite = "GFX_tau_tank_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "necron_inf_folder_tab"
-				position = { x = 772 y = 0 }
+				position = { x = 922 y = 0 }
 				quadTextureSprite = "GFX_necron_inf_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "necron_tank_folder_tab"
-				position = { x = 842 y = 0 }
+				position = { x = 992 y = 0 }
 				quadTextureSprite = "GFX_necron_tank_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "chaos_inf_folder_tab"
-				position = { x = 922 y = 0 }
+				position = { x = 1072 y = 0 }
 				quadTextureSprite = "GFX_chaos_inf_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "chaos_tank_folder_tab"
-				position = { x = 992 y = 0 }
+				position = { x = 1142 y = 0 }
 				quadTextureSprite = "GFX_chaos_tank_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -3474,7 +3500,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 1300 y = 0 }
+				position = { x = 1400 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -3488,13 +3514,13 @@ guiTypes = {
 			#	clicksound = click_default
 			#}
 
-			#buttonType = {
-			#	name = "land_doctrine_folder_tab"
-			#	position = { x = 378 y = 0 }
-			#	quadTextureSprite = "GFX_land_doctrine_folder_tab"
-			#	frame = 1
-			#	clicksound = click_default
-			#}
+			buttonType = {
+				name = "land_doctrine_folder_tab"
+				position = { x = 1280 y = 0 }
+				quadTextureSprite = "GFX_land_doctrine_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
 
 			#iconType = {
 			#	name = "highlight_land_doctrine_folder"

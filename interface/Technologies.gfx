@@ -3949,4 +3949,83 @@ spriteTypes = {
 		name = "GFX_ig_inf_hwt_equip3_medium"
 		texturefile = "gfx/interface/technologies/ig_inf_hwt_equip3.dds"
 	}
+	#IG Artillery
+	SpriteType = {
+		name = "GFX_ig_inf_artillery_equip1_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_artillery_equip1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_artillery_equip2_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_artillery_equip2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_artillery_equip3_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_artillery_equip3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_artillery_equip4_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_artillery_equip4.dds"
+	}
+	#IG Anti Tank
+	SpriteType = {
+		name = "GFX_ig_inf_antitank_equip1_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_hwt_equip3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_antitank_equip2_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_antitank_equip2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_antitank_equip3_medium"
+		texturefile = "gfx/interface/technologies/ig_inf_antitank_equip3.dds"
+	}
+	#IG Support
+	SpriteType = {
+		name = "GFX_ig_inf_commando1_medium"
+		texturefile = "gfx/interface/technologies/ig_commando1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_commando2_medium"
+		texturefile = "gfx/interface/technologies/ig_commando2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_commando3_medium"
+		texturefile = "gfx/interface/technologies/ig_commando3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_commissar1_medium"
+		texturefile = "gfx/interface/technologies/ig_commissar1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_commissar2_medium"
+		texturefile = "gfx/interface/technologies/ig_commissar2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_commissar3_medium"
+		texturefile = "gfx/interface/technologies/ig_commissar3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_psyker1_medium"
+		texturefile = "gfx/interface/technologies/ig_psyker1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_psyker2_medium"
+		texturefile = "gfx/interface/technologies/ig_psyker2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_psyker3_medium"
+		texturefile = "gfx/interface/technologies/ig_psyker3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_snipers1_medium"
+		texturefile = "gfx/interface/technologies/ig_snipers1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_snipers2_medium"
+		texturefile = "gfx/interface/technologies/ig_snipers2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ig_inf_snipers3_medium"
+		texturefile = "gfx/interface/technologies/ig_snipers3.dds"
+	}
 }
